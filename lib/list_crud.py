@@ -2,14 +2,14 @@ def create_an_empty_list():
     return []
 
 def create_a_list():
-    return [3/4,"omar", .72, 36]
+    return [25, "white", 0.25, 1/3]
 
-def add_element_to_end_of_list(l, iqra):
-    l.append(iqra)
+def add_element_to_end_of_list(l, element):
+    l.append(element)
     return l
 
-def add_element_to_start_of_list(l, Haulah):
-    l.insert(0, Haulah)
+def add_element_to_start_of_list(l, element):
+    l.insert(0, element)
     return l
 
 def remove_element_from_end_of_list(l):
